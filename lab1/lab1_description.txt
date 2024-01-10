@@ -1,0 +1,12 @@
+# Name: Xiaoming Huang
+# Date: Jan 9, 2024
+# Title: Lab1 - step 2
+# Description: This is the description.
+
+Step 1: 
+After running the shell program, it first list out number of files I have in the directory, and a list of each of the name, just like what a mornal ls command does.
+Then it show some more information, such as HOME, USER, and PATH. It also print number of users logged in, as designed in the program.
+Lastly, it goes to the area calculator part, asking for the length and the width and outputting the area it computes, and ask to stop or proceed to another rectangle.
+
+Step 3: 
+it does the same, but calculating area for circle.
