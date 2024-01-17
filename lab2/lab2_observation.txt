@@ -1,0 +1,25 @@
+// Name: Johnny Xiaoming Huang
+// Date: Jan 16, 2024
+// Title: Lab2 - observation
+// Description: this is the observation notes for this lab.
+
+
+
+
+
+3. 
+it comes to a "Segmentation fault (core dumped)" result, and the program isn't able to run.
+
+4. 
+now it's able to run, 
+with input "./lab2 3000", it prints 100 parent processes and 100 child processes, indexing from 0 to 99.
+and with input "./lab2 500", it prints the same output, but in a faster speed, as we now have smaller delay.
+lastly with input "./lab2 5000", we have a longer wait time as expected.
+Overall, inputting 500 gives the shortest waitting time, 3000 gives the second shortest, and 5000 gives the longest as expected.
+
+6. 
+inorder to execute this file, we need to attach a "-lpthread" at the end of the gcc command, so "gcc lab2_6.c -o lab2_6 -lpthread".
+and as before, we also need to input a number as our delay input along with ./lab2_6 to successfully run this code, and the result is similar.
+
+7. 
+we successfully have the ls command at the end.
